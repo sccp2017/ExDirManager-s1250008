@@ -1,0 +1,7 @@
+class Commnand
+  attr_reader :dirname, :header, :num
+  def initialize(dir_name,header,num)
+    @dir_name = dir_name
+    @header = header
+    @num  = num
+  end

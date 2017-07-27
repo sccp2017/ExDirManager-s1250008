@@ -1,0 +1,8 @@
+class CommandParser
+  def initialize(argv)
+    @argv = argv
+  end
+  
+  def parse()
+  
+end
