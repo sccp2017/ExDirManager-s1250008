@@ -1,0 +1,6 @@
+require_relative 'commandparser'
+class Main
+  def initialize
+    commandparser = CommandParser.new
+  end
+  

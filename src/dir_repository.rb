@@ -7,7 +7,7 @@ class DirRepository
   def initialize(dir_name, header, num)
     @dir_name = dir_name
     @header = header
-    @num = num
+    @num = num.to_i
   end
 
   # メソッドの中身のコードを追加
@@ -21,6 +21,3 @@ class DirRepository
   end
 
 end
-
-dir = DirRepository.new("Prog0","Ex",13)
-dir.make

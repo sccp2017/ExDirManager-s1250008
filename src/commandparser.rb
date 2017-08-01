@@ -6,7 +6,7 @@ class CommandParser
   
   def parse()
     # Hashの生成
-    hash = Hash[*argv]
+    hash = Hash[*@argv]
     dir_name = hash["generate"]
     header = hash["-h"]
     max = hash["-m"].to_i
